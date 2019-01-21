@@ -33,7 +33,7 @@ class Article extends React.Component {
                 {!article ? (
                     'Нет данных'
                 ) : (
-                    <Paper className={classes.root} elevation={1}>
+                    <div className={classes.root}>
                         <Typography variant="display2" component="h3">
                             {article.company}
                         </Typography>
@@ -44,7 +44,7 @@ class Article extends React.Component {
                             {article.lorem}
                         </Typography>
                         <Comments id={id} />
-                    </Paper>
+                    </div>
                 )}
             </div>
         )
