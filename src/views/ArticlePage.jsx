@@ -15,7 +15,7 @@ const styles = theme => ({
         paddingBottom: theme.spacing.unit * 2,
     },
     p: {
-        paddingTop: 50,
+        paddingTop: 30,
         paddingBottom: 30,
     },
 })
@@ -35,7 +35,10 @@ class Article extends React.Component {
                 ) : (
                     <Paper className={classes.root} elevation={1}>
                         <Typography variant="display2" component="h3">
-                            {article.company} / id article = {id}
+                            {article.company}
+                        </Typography>
+                        <Typography variant="body2" component="h4">
+                            {`id article = ${id}`}
                         </Typography>
                         <Typography className={classes.p} component="p">
                             {article.lorem}
