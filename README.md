@@ -2,4 +2,4 @@
 -  redux-saga
 -  material UI
 
-[Demo](http://fimanami.info/test-sky)
+[Demo](http://fimanami.com/test-sky)
